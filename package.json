@@ -1,0 +1,27 @@
+{
+  "name": "Koa2MySQLCaching",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha",
+    "start": "node ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-cache-lite": "^3.8.8",
+    "koa-router": "^8.0.8",
+    "memory-cache": "^0.2.0",
+    "mysql2": "^2.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^3.0.0",
+    "eslint": "^6.8.0",
+    "mocha": "^7.1.0"
+  }
+}
